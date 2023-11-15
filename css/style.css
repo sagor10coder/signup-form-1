@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.main-container
+{
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0;
+  background-color: #f8f8f8;
+  
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 100px;
+    box-shadow: 10px 10px 20px rgba(160, 160, 160, 0.2);
+    height: 80vh;
+}
+
+.form-container{
+    display: flex;
+    
+   
+   
+}
+
+.left-side,.right-side{
+    flex-basis: 50%;
+   
+}
+
+.left-side img{
+    max-width: 100%;
+    height: auto;
+}
+
+.left-side a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    
+}
+
+.right-side h2{
+
+    font-size: 42px;
+    color: #222;
+
+}
+
+.right-side form{
+    margin: 40px 0;
+}
+
+.form-class{
+    width: 100%;
+    margin: 20px 0;
+
+    
+
+}
+
+.form-control{
+    
+    width: 80%;
+    padding: 10px 24px;
+    border: none;
+    border-bottom: 1px solid #3b3939;
+
+}
+
+.form-control i{
+    position: absolute;
+    left: 0;
+
+}
+
+
+.form-class button{
+    padding: 10px 25px;
+    background-color: #1C9CEA;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 15px 0;
+    opacity: 1;
+    transition: opacity 0.5s ease 0s;
+    cursor: pointer;
+    
+}
+
+
+
+.social-media-log-in  span {
+    font-size: 14px;
+}
+
+.social-media-log-in i{
+    font-size: 32px;
+    margin: 0 8px;
+}
+
+.form-class button:hover{
+    opacity: 0.6;
+    
+    
+    
+    
+}
+
+
+
+
+
+
